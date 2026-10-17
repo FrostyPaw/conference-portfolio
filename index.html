@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f3ed">
+  <meta name="description" content="Alex Rowan - a fictional designer and frontend developer. A conference portfolio with selected work, a sample CV, and the project author's GitHub.">
+  <title>Alex Rowan - Thoughtful design. Careful code.</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/manrope.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner wrap">
+      <a class="brand" href="#top" aria-label="Alex Rowan, back to top">ar<span class="brand-dot">.</span></a>
+      <span class="header-note">DESIGN MIND.<br>DEVELOPER HANDS.</span>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-controls="site-nav" aria-expanded="false"><span></span><span></span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#work">Selected work</a>
+        <a href="#about">About</a>
+        <a href="#cv">CV</a>
+        <a class="nav-contact" href="#contact">Let’s connect <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> DESIGNER &amp; FRONTEND DEVELOPER</p>
+        <h1 id="hero-title">Thoughtful<br>design.<br>Careful <em>code.</em></h1>
+        <p class="hero-intro">Hi, I’m Alex Rowan. I turn ideas into clear, useful web experiences — with a little curiosity and a lot of care.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#work">Explore my work <span aria-hidden="true">↘</span></a>
+          <a class="text-link" href="assets/alex-rowan-cv.pdf" download>Download CV <span aria-hidden="true">↓</span><span class="sr-only"> (PDF, fictional profile)</span></a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-topline"><span>IDEA → INTERFACE</span><span>01 / 03</span></div>
+        <svg class="interface-art" viewBox="0 0 500 510" fill="none">
+          <defs>
+            <pattern id="art-grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" stroke="#d6d9d4" stroke-width=".8"/></pattern>
+            <linearGradient id="art-blue" x1="75" y1="110" x2="390" y2="440" gradientUnits="userSpaceOnUse"><stop stop-color="#335b70"/><stop offset="1" stop-color="#142b3b"/></linearGradient>
+          </defs>
+          <rect x="20" y="40" width="460" height="430" fill="url(#art-grid)"/>
+          <circle cx="265" cy="250" r="185" stroke="#b7c2be" stroke-dasharray="4 7"/>
+          <circle cx="265" cy="250" r="144" stroke="#c6ceca"/>
+          <g transform="rotate(-9 250 255)">
+            <rect x="72" y="111" width="350" height="310" rx="16" fill="#b8c7c6"/>
+            <rect x="60" y="94" width="350" height="310" rx="16" fill="url(#art-blue)"/>
+            <path d="M60 138H410" stroke="#6a8795" stroke-opacity=".65"/>
+            <circle cx="85" cy="116" r="4" fill="#dca38d"/><circle cx="100" cy="116" r="4" fill="#e8d6ae"/><circle cx="115" cy="116" r="4" fill="#9cb6a2"/>
+            <rect x="305" y="111" width="77" height="9" rx="4.5" fill="#547589"/>
+            <rect x="85" y="162" width="145" height="14" rx="3" fill="#b6cacc"/>
+            <rect x="85" y="187" width="100" height="7" rx="3" fill="#6a8a99"/>
+            <rect x="85" y="216" width="179" height="160" rx="5" fill="#f2eee3"/>
+            <path d="M101 358V306L151 266L184 291L231 240L249 259V358H101Z" fill="#b2c5bd"/>
+            <circle cx="128" cy="245" r="13" fill="#cb6a48"/>
+            <rect x="283" y="217" width="100" height="8" rx="4" fill="#91afb9"/>
+            <rect x="283" y="239" width="79" height="5" rx="2.5" fill="#5b7c8f"/>
+            <rect x="283" y="251" width="91" height="5" rx="2.5" fill="#5b7c8f"/>
+            <rect x="283" y="263" width="61" height="5" rx="2.5" fill="#5b7c8f"/>
+            <rect x="283" y="298" width="100" height="35" rx="4" fill="#b8c8bb"/>
+            <path d="M298 316H368M360 309L368 316L360 323" stroke="#213f50" stroke-width="2"/>
+          </g>
+          <g transform="rotate(7 356 373)"><rect x="269" y="333" width="168" height="96" rx="10" fill="#e5a285"/><path d="M307 365L293 380L307 395M393 365L407 380L393 395M360 357L340 403" stroke="#482d24" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></g>
+          <circle cx="418" cy="109" r="25" fill="#cf6544"/><path d="M406 109H430M418 97V121" stroke="#fff4e8" stroke-width="2"/>
+          <path d="M43 355H17M30 342V368" stroke="#557468" stroke-width="1.5"/>
+        </svg>
+        <div class="art-bottomline"><span>LESS NOISE. MORE INTENTION.</span><span class="art-coordinate">↗</span></div>
+        <div class="floating-label"><span class="small-spark" aria-hidden="true">✳</span> Built with intention.</div>
+      </div>
+      <div class="hero-foot"><span>BASED IN RIGA, LATVIA</span><a href="#work">SCROLL TO EXPLORE <span aria-hidden="true">↓</span></a></div>
+    </section>
+
+    <div class="principles-strip" aria-label="Areas of focus"><div class="wrap"><span>Clear interfaces</span><i aria-hidden="true">✳</i><span>Responsive layouts</span><i aria-hidden="true">✳</i><span>Thoughtful details</span><i aria-hidden="true">✳</i><span>Clean code</span></div></div>
+
+    <section class="work-section section-pad wrap" id="work" aria-labelledby="work-title">
+      <div class="section-heading"><div><p class="eyebrow section-kicker">01 / SELECTED WORK</p><h2 id="work-title">A few things<br>I’ve <em>made.</em></h2></div><p class="section-intro">A mix of hands-on development<br>and ideas worth exploring.</p></div>
+      <div class="projects-grid">
+        <article class="project project-article">
+          <a class="project-visual article-visual" href="https://github.com/FrostyPaw/wadt_lecture_4" target="_blank" rel="noopener noreferrer" aria-label="View the Sass Field Notes repository on GitHub (opens a new tab)">
+            <div class="mini-browser" aria-hidden="true"><div class="browser-bar"><span class="browser-dots">● ● ●</span><span>fieldnotes / sass</span><span>↗</span></div><div class="mini-article"><span class="mini-label">WEB DEVELOPMENT</span><h3>What is Sass?</h3><p>A little structure.<br>A lot more clarity.</p><div class="mini-rule"></div><div class="mini-lines"><span></span><span></span><span></span></div><div class="mini-code"><span>$primary-color: <b>#333;</b></span><span>body { color: $primary-color; }</span></div><div class="mini-lines short"><span></span><span></span></div></div></div>
+            <span class="project-open" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-meta"><div><p class="project-type">HTML &amp; CSS / COURSE PROJECT</p><h3>Sass Field Notes</h3></div><span class="project-index">01</span></div>
+          <p class="project-description">A long-form article turned into a readable web page, with custom typography, code blocks, and a separate stylesheet.</p>
+          <a class="text-link project-link" href="https://github.com/FrostyPaw/wadt_lecture_4" target="_blank" rel="noopener noreferrer">View repository <span aria-hidden="true">↗</span><span class="sr-only"> (opens a new tab)</span></a>
+        </article>
+        <article class="project project-dashboard">
+          <button class="project-visual dashboard-visual" type="button" data-open-project aria-haspopup="dialog" aria-controls="project-dialog" aria-label="Explore Northstar, a fictional dashboard design concept">
+            <div class="dashboard-window" aria-hidden="true"><div class="dashboard-sidebar"><span class="northstar-logo">✳</span><i></i><i></i><i></i><i></i><span class="sidebar-avatar">a</span></div><div class="dashboard-main"><div class="dashboard-top"><span>Overview</span><span>↗</span></div><p class="dashboard-greeting">A clearer view<br>of your day.</p><div class="dashboard-chips"><span>Overview</span><span>This week ↓</span></div><div class="chart-panel"><div><span>Weekly activity</span><span>DEMO</span></div><svg viewBox="0 0 280 100"><path d="M0 25H280M0 60H280M0 95H280" stroke="#e7ebe6"/><path d="M0 82C20 82 20 45 45 55S75 88 100 53S135 61 155 32S195 53 220 20S255 37 280 8" stroke="#527764" stroke-width="3" fill="none"/><path d="M0 82C20 82 20 45 45 55S75 88 100 53S135 61 155 32S195 53 220 20S255 37 280 8V100H0Z" fill="#527764" opacity=".09"/></svg></div><div class="dashboard-bottom"><div><i></i><span>Focus time</span><b>Less distraction.</b></div><div><i></i><span>Small steps</span><b>Better progress.</b></div></div></div></div>
+            <span class="concept-pill">DESIGN CONCEPT</span><span class="project-open" aria-hidden="true">↗</span>
+          </button>
+          <div class="project-meta"><div><p class="project-type">INTERFACE DESIGN / FICTIONAL CONCEPT</p><h3>Northstar</h3></div><span class="project-index">02</span></div>
+          <p class="project-description">An interface study for a calmer productivity dashboard. A simple hierarchy, muted colours, and space to focus.</p>
+          <button class="text-link project-link" type="button" data-open-project aria-haspopup="dialog" aria-controls="project-dialog">Explore the concept <span aria-hidden="true">↗</span></button>
+        </article>
+      </div>
+      <div class="work-footer"><span>Curious about the code?</span><a class="text-link" href="https://github.com/FrostyPaw/conference-portfolio" target="_blank" rel="noopener noreferrer">View this portfolio’s source <span aria-hidden="true">↗</span><span class="sr-only"> (opens a new tab)</span></a></div>
+    </section>
+
+    <section class="about-section" id="about" aria-labelledby="about-title"><div class="wrap about-grid section-pad">
+      <div class="about-poster" aria-hidden="true"><span class="poster-top">THE PERSON BEHIND THE PIXELS</span><span class="poster-symbol">a<span>r</span>.</span><span class="poster-bottom">ALWAYS CURIOUS.<br>ALWAYS BUILDING. <i>↗</i></span><span class="poster-ring"></span></div>
+      <div class="about-copy"><p class="eyebrow section-kicker">02 / A LITTLE ABOUT ME</p><h2 id="about-title">Curious by nature.<br>Developer by <em>choice.</em></h2><p>I’m Alex, a fictional Riga-based frontend developer with a designer’s eye. I enjoy the space where clear thinking, visual craft, and working code meet.</p><p>My goal is simple: make the web feel easier to use. I start with the person on the other side of the screen, then build with care — from the first sketch to the last breakpoint.</p><div class="about-principles"><p><span>01</span> Clarity over clutter.</p><p><span>02</span> Details make the difference.</p><p><span>03</span> Build. Learn. Repeat.</p></div></div>
+    </div></section>
+
+    <section class="cv-section section-pad wrap" id="cv" aria-labelledby="cv-title">
+      <div class="section-heading"><div><p class="eyebrow section-kicker">03 / THE SHORT VERSION</p><h2 id="cv-title">A little context.<br>A lot of <em>curiosity.</em></h2></div><a class="button button-outline cv-download" href="assets/alex-rowan-cv.pdf" download>Download CV <span aria-hidden="true">↓</span><span class="sr-only"> (PDF, fictional profile)</span></a></div>
+      <div class="cv-paper">
+        <div class="cv-profile"><div class="cv-monogram" aria-hidden="true">ar.</div><div><h3>Alex Rowan</h3><p>Frontend developer &amp; interface designer</p><span class="sample-label">SAMPLE CV · FICTIONAL PROFILE</span></div><span class="cv-location">Riga, Latvia<br>Open to new conversations</span></div>
+        <div class="cv-columns"><div class="cv-timeline"><h4>Experience</h4><div class="cv-entry"><span class="cv-date">2025 - PRESENT</span><h5>Frontend developer</h5><p class="cv-organisation">Independent projects · fictional experience</p><p>Developing responsive websites and interface concepts, with a focus on readable content, accessible structure, and maintainable CSS.</p></div><div class="cv-entry"><span class="cv-date">2024 - 2025</span><h5>Web development trainee</h5><p class="cv-organisation">Learning &amp; practice · fictional experience</p><p>Built a foundation in semantic HTML, CSS layouts, JavaScript, and version control through small projects.</p></div><h4 class="education-heading">Education</h4><div class="cv-entry"><span class="cv-date">2023 - 2026</span><h5>BSc studies in Computer Science</h5><p class="cv-organisation">Northbridge Institute · fictional institution</p><p>Focus: web development, interface design, and software fundamentals.</p></div></div>
+          <div class="cv-details"><h4>Toolkit</h4><div class="skill-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Git &amp; GitHub</span><span>Figma</span><span>Responsive design</span><span>Accessible UI</span></div><h4>How I work</h4><p>Think clearly.<br>Prototype early.<br>Listen carefully.<br>Refine the details.</p><h4>My mission</h4><blockquote>“Make complex things<br>feel simple.”</blockquote><div class="cv-github"><span>PROJECT AUTHOR’S GITHUB</span><a href="https://github.com/FrostyPaw" target="_blank" rel="noopener noreferrer">github.com/FrostyPaw <span aria-hidden="true">↗</span></a></div></div></div>
+        <p class="cv-disclaimer">This CV is an illustrative profile created for a university assignment. The name, experience, and education are fictional.</p>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="wrap contact-inner"><p class="eyebrow">04 / LET’S CONNECT</p><div class="contact-main"><h2 id="contact-title">Good work starts<br>with a <em>conversation.</em></h2><div class="contact-actions"><p>Explore the code.<br>Meet the project author.<br>Let’s make something thoughtful.</p><a class="button button-light" href="https://github.com/FrostyPaw" target="_blank" rel="noopener noreferrer">Connect on GitHub <span aria-hidden="true">↗</span><span class="sr-only"> (opens a new tab)</span></a><button class="copy-handle" type="button" id="copy-handle">Copy @FrostyPaw <span aria-hidden="true">⧉</span></button><span id="copy-status" class="copy-status" role="status" aria-live="polite"></span></div></div><a class="back-top" href="#top">BACK TO TOP <span aria-hidden="true">↑</span></a></div></section>
+  </main>
+  <footer class="site-footer wrap"><span>© 2026 Alex Rowan</span><p>Fictional portfolio for a university assignment.<br>GitHub belongs to the project author, <a href="https://github.com/FrostyPaw" target="_blank" rel="noopener noreferrer">FrostyPaw<span class="sr-only"> (opens a new tab)</span></a>.</p><span class="footer-mark" aria-hidden="true">DESIGNED WITH CARE. BUILT WITH CSS.</span></footer>
+
+  <dialog id="project-dialog" class="project-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-head"><span class="eyebrow">INTERFACE DESIGN STUDY</span><button class="dialog-close" type="button" aria-label="Close project details">×</button></div>
+    <div class="dialog-body"><span class="sample-label">FICTIONAL CONCEPT</span><h2 id="dialog-title">Northstar</h2><p class="dialog-lead">A calmer place to see the bigger picture.</p><div class="concept-detail-graphic" aria-hidden="true"><div><span>✳ NORTHSTAR</span><span>OVERVIEW</span></div><h3>Space to focus.</h3><svg viewBox="0 0 580 120" fill="none"><path d="M0 110H580M0 70H580M0 30H580" stroke="#d9e3d9"/><path d="M0 98C40 98 35 50 85 63S135 108 185 65S240 79 285 39S355 68 400 29S500 51 580 5" stroke="#527764" stroke-width="4"/></svg></div><div class="dialog-columns"><div><h3>The idea</h3><p>A productivity dashboard that prioritises the next useful action. Quiet colours and a clear hierarchy keep the interface easy to scan.</p></div><div><h3>The design approach</h3><p>Reusable components, responsive CSS Grid, deliberate spacing, and a simple chart. The preview is an illustrative design study.</p></div></div><a class="text-link" href="#cv" id="dialog-cv-link">See the toolkit behind the work <span aria-hidden="true">↘</span></a></div>
+  </dialog>
+</body>
+</html>
