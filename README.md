@@ -1,50 +1,54 @@
 # Alex Rowan - Conference Portfolio
 
-Одностраничное портфолио на английском для задания по CSS. Alex Rowan, его CV,
-опыт работы и образование вымышлены. GitHub FrostyPaw принадлежит автору работы.
+[Live website](https://frostypaw.github.io/conference-portfolio/) · [GitHub repository](https://github.com/FrostyPaw/conference-portfolio)
 
-## Как открыть
+A responsive, English-language, one-page personal portfolio created for a university CSS assignment. Built with HTML, CSS, and vanilla JavaScript.
 
-Распакуй архив целиком и открой `index.html` в браузере.
-Рядом должны оставаться `styles.css`, `script.js` и папка `assets`.
-Шрифты включены в проект; внешние библиотеки и установка пакетов не нужны.
+Alex Rowan is a fictional character. The CV, employment history, and education are sample content. The GitHub account **FrostyPaw** belongs to the project author.
 
-## Как загрузить на GitHub Pages
+## Assignment requirements
 
-1. Создай отдельный публичный репозиторий, например `conference-portfolio`.
-2. Через **Add file -> Upload files** загрузи содержимое этой папки в корень
-   репозитория: `index.html`, `styles.css`, `script.js`, папку `assets` и этот README.
-   Загружай распакованные файлы, а не ZIP. Сохрани структуру папки assets.
-3. Нажми **Commit changes**.
-4. Открой **Settings -> Pages**.
-5. В **Source** выбери **Deploy from a branch**, затем **main** и **/(root)**.
-6. Нажми **Save**. Когда публикация завершится, GitHub покажет ссылку на сайт.
-7. Открой эту ссылку на своём телефоне и проверь меню, прокрутку, GitHub и CV.
+- **Mobile-friendly:** responsive layouts, a viewport meta tag, and mobile navigation.
+- **CV:** an on-page resume and a downloadable one-page PDF.
+- **GitHub:** links to the author's profile and this repository.
+- **One-page website:** all portfolio sections are in `index.html`.
+- **Personal introduction and mission:** an About section and the motto "Make complex things feel simple."
 
-Официальная инструкция:
-https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+## Features
 
-## Где что находится
+- Custom typography with bundled local fonts.
+- Selected work with project previews and a concept details dialog.
+- Responsive navigation, internal section links, and a back-to-top link.
+- Keyboard support, a skip link, and reduced-motion preferences.
+- A downloadable fictional CV and a button to copy the author's GitHub handle.
 
-- `index.html` - весь текст и структура страницы.
-- `styles.css` - оформление и адаптация под мобильные устройства.
-- `script.js` - мобильное меню, окно концепта Northstar и копирование GitHub.
-- `assets/alex-rowan-cv.pdf` - одностраничное вымышленное CV в формате A4.
-- `assets/fonts` - локальные шрифты Manrope и DM Serif Display, лицензии OFL рядом.
+## Project structure
 
-## Требования задания
+```text
+index.html                 Page content and semantic structure
+styles.css                 Styling, responsive layouts, and print styles
+script.js                  Navigation, project dialog, and clipboard interaction
+assets/
+  favicon.svg              Site icon
+  alex-rowan-cv.pdf        Fictional CV, one A4 page
+  fonts/                   Manrope, DM Serif Display, and their OFL licenses
+```
 
-- Одна HTML-страница.
-- Адаптивная вёрстка и viewport для телефона.
-- CV на странице и ссылка для скачивания PDF.
-- GitHub-аккаунт и ссылка на репозиторий проекта.
-- Краткое описание, цель и девиз: Make complex things feel simple.
+## Open locally
 
-## Проверка
+Download and extract the complete project, then open `index.html` in a browser. Keep `styles.css`, `script.js`, and `assets/` alongside it.
 
-Проверено в Chrome с ширинами 320, 375, 390, 768, 1024 и 1440 пикселей.
-Горизонтального переполнения нет. Проверены меню, внутренние переходы,
-открытие и закрытие окна проекта, копирование GitHub и скачивание PDF.
-CV занимает один лист A4. Отдельная проверка на реальном телефоне остаётся за тобой.
+No package installation or build step is required. Fonts are included locally.
 
-Все пути относительные: сайт работает и в подпапке GitHub Pages.
+## Deployment
+
+The website is published through **GitHub Pages** from the **main** branch and the **repository root**. All asset paths are relative, so the site works under the `/conference-portfolio/` project path.
+
+[GitHub Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+
+## Verification
+
+Tested in Chrome at viewport widths of **320, 375, 390, 768, 1024, and 1440 pixels**, with no horizontal overflow. Navigation, project dialog, internal links, clipboard interaction, and CV download were checked. The published HTML, CSS, JavaScript, fonts, and PDF were also verified.
+
+The CV was visually reviewed and fits on one A4 page. A final check on a physical mobile phone is recommended before submission.
+
